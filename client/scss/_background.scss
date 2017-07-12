@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#background {
+  position: relative;
+}
+
+#backgrImg {
+  // height:'400px';
+}
+
+#imgContainer {
+  display: block;
+  position: relative;
+  height: 400px;
+  width: 916px;
+  overflow: hidden;
+}
+
+#backgrImg1, #backgrImg2 {
+  height: 400px;
+  background: linear-gradient(to bottom, #356aa0, #e86a4e);
+  position: absolute;
+}
